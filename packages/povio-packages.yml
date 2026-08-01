@@ -1,0 +1,47 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/povio
+note: >-
+  Povio does not operate a public API, so these are NOT client SDKs for a Povio
+  API. They are first-party open-source developer tools that Povio publishes and
+  maintains under its GitHub organizations (github.com/povio, github.com/poviolabs)
+  and public registries (npm, CocoaPods, Swift Package Manager). Recorded as
+  Packages only; no SDKs pointer is emitted because there is no Povio API surface.
+packages:
+- name: '@povio/ecs-deploy-cli'
+  registry: npm
+  official: true
+  version: 4.5.2
+  license: BSD-3-Clause
+  description: Deploy a Docker image to ECR and ECS with CI or manually.
+  registry_url: https://www.npmjs.com/package/@povio/ecs-deploy-cli
+  repository: https://github.com/povio/ecs-deploy-cli
+- name: '@povio/spa-deploy-cli'
+  registry: npm
+  official: true
+  version: 4.2.2
+  license: BSD-3-Clause
+  description: Deploy and configure a single-page application.
+  registry_url: https://www.npmjs.com/package/@povio/spa-deploy-cli
+  repository: https://github.com/povio/spa-deploy-cli
+- name: '@povio/openapi-codegen-cli'
+  registry: npm
+  official: true
+  version: 3.1.0
+  license: BSD-3-Clause
+  description: >-
+    OpenAPI code generator aligned to Povio's internal template (primarily for
+    internal organizational use).
+  registry_url: https://www.npmjs.com/package/@povio/openapi-codegen-cli
+  repository: https://github.com/povio/openapi-codegen-cli
+- name: PovioKit
+  registry: cocoapods
+  also_available:
+  - swift-package-manager
+  official: true
+  version: 1.1.0
+  license: MIT
+  language: Swift
+  description: A modular Swift library collection / toolkit.
+  registry_url: https://cocoapods.org/pods/PovioKit
+  repository: https://github.com/poviolabs/PovioKit

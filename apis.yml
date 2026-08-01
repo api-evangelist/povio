@@ -1,7 +1,30 @@
 aid: povio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/povio.png
 name: Povio
-description: Povio is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Povio is a Y Combinator-backed product design and engineering agency
+  headquartered in San Francisco that helps startups and established companies
+  design, build, and launch scalable digital products. The team delivers
+  end-to-end UI/UX and product design, frontend, backend, and mobile
+  engineering, DevOps, QA, and AI, IT, and legal consulting across 38+
+  technology stacks including React, Node.js, Python, Swift, and the major cloud
+  platforms. Povio positions itself around AI-accelerated delivery ("build in
+  days what once took months") and engages through fixed-price projects,
+  dedicated teams, staff augmentation, and startup MVP / CTO-as-a-Service
+  models. Povio does not operate a public API or developer portal; it does
+  maintain open-source GitHub organizations that publish first-party developer
+  tooling such as deployment CLIs and the PovioKit Swift toolkit.
 url: https://raw.githubusercontent.com/api-evangelist/povio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Software Development Agency
+- Product Engineering
+- Design
+- Consulting
+- Artificial Intelligence
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://povio.com
+- type: Blog
+  url: https://povio.com/blog
+- type: GitHubOrganization
+  url: https://github.com/povio
+- type: PrivacyPolicy
+  url: https://povio.com/privacy-policy
+- type: TermsOfService
+  url: https://povio.com/terms-and-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/povio
+- type: Packages
+  url: packages/povio-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
